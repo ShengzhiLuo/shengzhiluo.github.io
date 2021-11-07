@@ -1,0 +1,16 @@
+name: "Yay internet!"
+output_dir: "."
+navbar:
+  title: "Home"
+  right:
+    - text: "plotly"
+      href: plotly.html
+    - text: "dashboard"
+      href: dashboard.html
+    - icon: fa-envelope fa-lg
+      href: mailto:<sl5009@cumc.columbia.edu>
+    - icon: fa-github fa-lg
+      href: http://github.com/ShengzhiLuo/
+output:
+  html_document:
+    theme: flatly

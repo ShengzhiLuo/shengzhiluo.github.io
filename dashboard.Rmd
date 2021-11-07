@@ -1,0 +1,66 @@
+---
+title: "dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    source: embed
+---
+
+```{r setup, include=FALSE}
+library(flexdashboard)
+library(tidyverse)
+library(p8105.datasets)
+library(plotly)
+library(dplyr)
+```
+
+```{r}
+data("instacart")
+```
+
+Column {data-width=650}
+-----------------------------------------------------------------------
+
+### Chart A
+
+```{r}
+instacart %>%
+  filter(aisle_id==1) %>% 
+  mutate(
+    text_label = str_c("day of week:", order_dow, "hour of day:", order_hour_of_day)
+  ) %>% 
+  plot_ly(
+    x = ~product_id, y = ~days_since_prior_order, type = "scatter", mode = "markers",
+    color = ~order_number, text = ~text_label, alpha = .5
+  )
+```
+
+Column {data-width=350}
+-----------------------------------------------------------------------
+
+### Chart B
+
+```{r}
+instacart %>%
+  filter(department_id<5) %>% 
+  mutate(aisle_id=fct_reorder(aisle,order_hour_of_day)) %>% 
+  plot_ly(
+    y = ~ order_hour_of_day, color = ~aisle_id, type = "box",
+    colors = "viridis")
+```
+
+### Chart C
+
+```{r}
+instacart %>% 
+  filter(aisle_id<51,aisle_id!=24) %>% 
+ count(aisle) %>% 
+  mutate(aisle = fct_reorder(aisle, n)) %>% 
+  plot_ly(x = ~aisle, y = ~n, color = ~aisle, type = "bar", colors = "viridis")
+```
+
+
+
+
+

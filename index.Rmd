@@ -1,0 +1,65 @@
+---
+title: "Shengzhi Luo"
+output: 
+  html_document:
+    toc: true
+    toc_float: true
+    theme: cerulean
+---
+
+# Introduction
+Shengzhi Luo
+<br>
+255 W 94th St, New York, New York 10025 
+<br>
++1 347-325-1860 
+<br>
+sl5009@cumc.columbia.edu
+<br>
+Graduate Student @ Columbia University Irving Medical Center, In the city of New York
+
+# My Resume
+Education Background<br>
+*Columbia University, Mailman School of Public Health,New York, United States<br>
+Master of Science, Biostatistics, Sep.2021– Expected May 2023<br>
+•	Relevant coursework: Data Science, Biostatistics Method, Probability
+
+*The University of Sheffield, School of Mathematics and Statistics, Sheffield, United Kingdom<br>
+Bachelor of Science, Mathematics, Dean’s list, Sep. 2018 – Jun. 2021<br>
+•	Research Assistant 
+                                                            
+*The University of Amsterdam	Amsterdam, Netherlands<br>
+Summer School (Course: Economics and Game Theory)	Jun. 2019 – Jul. 2019<br>
+
+Professional Experience <br>
+* JD.COM, Shanghai, China <br>
+Big Data Engineer Intern, Jun 2021–Aug 2021<br>
+•	Analyzed data in the use of data validation, pipeline and ingestion testing.<br>
+•	Created and presented models for E-retail sales to fund managers. <br>
+•	Achieved 20% better returns vs historical performance.<br>
+* Huize Holding Limited	Chengdu, China <br>
+Data Analyst Intern, May 2020 – Jul. 2020<br>
+•	Processed text and voice data in Wechat based on natural language processing (NLP) technologies. <br>
+•	Completed the SWOT model to improve the accuracy of natural language model from 60% to 75%.
+<br>
+
+Research Experience<br>
+* Mathematical Modeling for COVID-19	
+Research Assistant; Supervisor: Dr. Alex Best, Sep. 2020 – Dec. 2020 <br>
+•	Analyzed data to predict the behavior of the COVID-19 growth in UK with SIR model <br>
+•	Concluded that the reproduction number can be minimized if infection transmission rate is reduced using prevention measures as lockdown and social distance
+* Telling Knots Apart with Different Invariants	Jul. 2020 – Aug. 2020<br>
+Research Assistant; Supervisor: Dr. James Cranch, Dr. Fionntan Roukema<br>
+•	Read references about knot theory and braids theory, such as Knot Theory and Its Application by Kunia Murasugi, and used colorings to classify the knots; In Python, stored all the knots with different crossings and strings, and got the entropies of the classification to see which is the good way to tell knots apart<br>
+*Statistical Healthcare Comparison	Apr. 2020 – Apr. 2020<br>
+Research Assistant; Supervisor: Dr. Jonathan Potts<br>
+•	Compared the 2011 performances of UK healthcare and other Organization for Economic Co-operation and Development (OECD) countries based on the model for life expectancy related to total expenditure and obesity<br>
+*Statistical Modeling: Investigation of Dyslexia	Dec. 2019 – Jan. 2020<br>
+Research Assistant; Supervisor: Dr. Jonathan Potts<br>
+•	Investigated how effectively the British Picture Vocabulary Test detects dyslexia at an early age through R<br>
+
+# some links 
+1. [My Github](https://github.com/ShengzhiLuo)<br>
+2. My Email: sl5009@cumc.columbia.edu <br>
+3. [My Linkedin](https://www.linkedin.com/in/shengzhi-luo-a5963119b/)
+4. more information
